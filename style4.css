@@ -1,0 +1,24 @@
+*{margin:0px;
+  padding: 0px;
+}
+.wrapper{
+    
+    border: 2px solid red;
+}
+.header{
+    height: 70px;
+    background-color: cyan;
+}
+.navigation{
+    height: 50px;
+    background-color: darkblue;
+    margin: 5px 5px;
+}
+.content{
+    height:750px;
+    background-color: darkkhaki;
+}
+.footer{
+    height: 60px;
+    background-color: darkslategrey;
+}

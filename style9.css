@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    border: 2px solid red;
+}
+.header{
+   min-height: 80px; 
+   background-color: green;
+}
+.nav-bar{
+    min-height:40px;
+    background-color: lightcoral;
+
+}
+
+.section{
+   min-height: 600px;
+    background-color: indianred;
+    
+
+}
+.right-pannel{
+    background-color: lawngreen;
+    min-height:600px;
+    width: 70%;
+    float: left;
+    font-size: 10px;
+
+    
+}
+.left-panel{
+    width: 30%;
+    min-height: 600px;
+    background-color: gray;
+    float: right;
+}
+.section::after{
+    margin: "";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+.footer{
+    height: 70px;
+    background-color: indigo;
+}

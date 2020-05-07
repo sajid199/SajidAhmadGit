@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <style>
+        #container{ border: 2px solid red;
+        height: 200px;
+        width: 600px;
+        display: flex;
+        }
+
+        
+ .dev{
+     margin: 10px;
+     padding: 20px;
+     
+ }
+ #one{
+     background-color: green;
+ }
+ #two
+ {
+     background-color: hotpink;
+ }
+ #three
+ {
+     background-color: lawngreen;
+     order: 1;
+ }
+ #four{
+     background-color: darkslategrey;
+ }
+    
+    #five{
+        background-color: darkturquoise;
+        order:-5;
+    }
+    #six{
+        background-color: red;
+    }
+    #seven{
+        background-color:yellow ;
+    }
+    #eight{
+         background-color:violet;
+    }
+    </style>
+</head>
+<body>
+    <! Order
+    ---------------------------
+    This property is used to specify the order of
+    a flexible item relative to the rest of the
+    flexible items inside the same container. It 
+    the element is not a flexible item, the order
+    property has no effect. we can set this property
+    to number (default 0). !>
+    <div id="container">
+        <div id="one" class="dev">1</div>
+        <div id="two" class="dev">2</div>
+        <div id="three" class="dev">3</div>
+        <div id="four" class="dev">4</div>
+        <div id="five" class="dev">5</div>
+        <div id="six" class="dev">6</div>
+        <div id="seven" class="dev">7</div>
+        <div id="eight" class="dev">8</div>
+    
+    </div>
+</body>
+</html>

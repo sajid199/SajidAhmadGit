@@ -1,0 +1,150 @@
+*{margin:0 px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+body{
+    background-color:#e3e3e3
+}
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+nav{
+    background-color:#089de3;
+}
+nav>a{
+    color:#ffff;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 10px 10px 30px;
+    float: left;
+}
+.navbar>ul{
+    list-style: none;
+    float: right;
+
+}
+.navbar>ul>li{
+    display: inline-block;
+    line-height: 60px;
+    padding: 0px 20px;
+
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffff;
+}
+.navbar>ul>li:hover{
+    background-color:#111111;
+}
+.navbar>ul>:last-child{
+ padding-right:  100px;   
+}
+nav::after{
+    content: "";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+.main-banner{
+    height: 500px;
+}
+.main-banner>img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.service{
+    background-color: #ffff;
+}
+.service>h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+.col{
+    width: 300px;
+    text-align: center;
+    margin-left: 20px;
+    border-right: solid 1px gray;
+    padding-bottom: 30px;
+    float: left;
+}
+.col:last-child{
+    border-right: none;
+}
+.col>h3{
+    padding:10px 0px;
+    color:gray;
+}
+.col>p{
+    padding-bottom: 20px;
+}
+.col>a{
+    background-color: #089de3;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    border: solid white 2px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.col>a:hover{
+    background-color: black;
+    border: solid 2px #111111;
+}
+.service::after{
+    content: "";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+.customer{
+    background-color: #089de3;
+    min-height: 300px;
+    text-align: center;
+    padding: 20px;
+}
+.customer>h1{
+    padding-bottom: 20px;
+    color: #fff;
+}
+.customer>img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+.customer>p{
+    font-size: 18px;
+    margin: 10px 200px;
+    padding-bottom: 25px;
+
+}
+.customer>a{
+    color:#fff;
+    font-size: 17px;
+    text-decoration: none;
+    border: solid white 1px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.customer>a:hover{
+    background-color: #111111;
+    background-color: #111111;
+    border-radius: 10px;
+}
+footer{
+    background-color: #111111;
+    text-align: center;
+    padding: 10px;
+}
+footer>small{
+    color:#fff;
+
+}

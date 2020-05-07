@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: gray;
+}
+.header{
+    background-color: teal;
+    height: 80px;
+}
+
+h2>a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 50px;
+    color: darkcyan;
+    color: white;
+}
+.nav-bar{
+    height: 70px;
+    background-color:darkgray;
+    padding-top: 10px;
+}
+.nav-bar>ul>li{
+    display: inline;
+    padding: 5px 10px;
+    
+}
+.nav-bar>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+.nav-bar>ul>li>a:hover{
+    background-color: teal;
+}
+.container{
+   min-height:900px;
+   
+}
+.container::after{
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+.right-panel{
+    width: 65%;
+    float: left;
+    min-height: 900px;
+}
+.right-panel>p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+img{
+    width: 70%;
+    padding: 10px;
+}
+footer{
+   min-height: 60px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+.left-panel{
+  width: 25%;  
+  float: right;
+  min-height: 900px;
+  border-left: 1px dashed black;
+}
+.left-panel>p{
+    padding: 5px;
+    text-align: justify;
+    font-size: 20px;
+}
+.left-panel>h3{
+    background-color: darkcyan;
+    font-size: 35px;
+    color:white;
+    margin-top: 2px;
+    text-align: center;
+    border-top-right-radius: 30px;
+}

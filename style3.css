@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    min-height: auto;
+    border: 2px solid red;
+}
+.navbar{
+    height: 70px;
+    background-color: hotpink;
+    margin: 2px 5px 5px;
+
+
+}
+.hello{
+    text-decoration: none;
+    display:inline-block;
+    
+}
+.content{
+    background-color: indigo;
+    min-height: 600px;
+}
+.footer{
+    background-color: gray;
+    height: 80px;
+}

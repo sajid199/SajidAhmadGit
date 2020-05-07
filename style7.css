@@ -1,0 +1,36 @@
+.header{
+    background-color: hotpink;
+    height: 20px;
+    border:solid 2px green
+}
+.container{
+    border:3px solid black;
+    
+}
+    .childcontainer{
+        background-color:darkcyan ;
+        border: solid 2px red;
+        width: 70px;
+        margin: 3px;
+        
+        float: left;/* float top to bottom flow to horizontal me kane ke liye kiya gaya hai.
+        lekin kuch problem ho gya jo container ke flow se bahar aa gaya usko solve karne ke liye *technique hai
+        */
+    }
+
+.footer{
+    background-color: cornflowerblue;
+    height: 20px;
+    border: 2px solid darkblue;
+}
+/* float jo bahar aa gaya usko solve karne ka 
+ek universal tarika hai wo ap yad kar le wo niche hai.
+
+*/
+.container::after{content:"";
+                  display: block;
+                  clear: both;
+                  *zoom: 1; /* kuch browser support nhi karte hain isliye
+                   bahut Impartant hai iska hi use karna chihiye hume.   */
+
+}
